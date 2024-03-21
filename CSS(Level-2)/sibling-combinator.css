@@ -1,0 +1,12 @@
+p+h3{
+    color:orange;
+}
+#login+button{
+    background-color:aqua;
+}
+.upvote+button{
+    background-color:coral;
+}
+hr+p{
+    color:green;
+}

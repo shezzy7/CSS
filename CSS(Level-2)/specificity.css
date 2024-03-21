@@ -1,0 +1,26 @@
+.myDiv{
+    color:green;
+}
+.Div{
+    color:blue;
+}
+.myDiv .Div{
+    color:red;
+}
+div p{
+    color:brown;
+}
+div #myId{
+    color:orange;
+}
+
+#myId{
+    color:yellow;
+}
+.myDiv #myId{
+    color:blueviolet;
+}
+.myDiv p{
+    color:black;
+}
+

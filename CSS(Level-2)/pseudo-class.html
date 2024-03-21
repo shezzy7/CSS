@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- universal selector -->
+    <!-- <link rel="stylesheet" href="universal-selector.css"> -->
+    <!-- element selector -->
+    <!-- <link rel="stylesheet" href="element-selector.css"> -->
+    <!-- id selector -->
+    <!-- <link rel="stylesheet" href="id-selector.css"> -->
+    <!-- class selector -->
+    <!-- <link rel="stylesheet" href="class-selector.css"> -->
+    <!-- Sibling combinator -->
+    <!-- <link rel="stylesheet" href="sibling-combinator.css"> -->
+    <!-- Chhild combinator -->
+    <!-- <link rel="stylesheet" href="child-combinator.css"> -->
+    <!-- Attribute selector -->
+    <!-- <link rel="stylesheet" href="attribute-selector.css"> -->
+    <!-- preferences of different selectors -->
+    <!-- <link rel="stylesheet" href="preference.css"> -->
+    <!-- pseudo selectors -->
+    <!-- <link rel="stylesheet" href="pseudo-class.css"> -->
+    <!-- pseudo elements -->
+    <!-- <link rel="stylesheet" href="pseudo-element.css"> -->
+    <!-- specificity -->
+    <link rel="stylesheet" href="ptc3.css">
+</head>
+<body>
+    <header >
+        <h1>Quora 
+            <button id="login">sign in</button>
+            <button id="signup">Register</button></h1>
+        <input type="text" name="user" placeholder="Username">
+        <input type="password" name="pass" placeholder="password">
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/following">Following</a></li>
+                <li><a href="/answer">Answer</a></li>
+                <li><a href="/spaces">Spaces</a></li>
+            </ul>
+        </nav>
+     </header>
+    <hr>
+    <main>
+        <p>
+            Adam &ensp;
+            <a  class="follow" href="/adam">Follow/adam</a>
+        </p>
+        <h3>What is the highest salary for spaceX engineer?</h3>
+        <div>
+            <button class="upvote">+upvote</button>
+            <button class="ans">Answer</button>        
+        </div>
+        <hr>
+        <p>
+            Bob &ensp;
+            <a class="follow" href="/bob">Follow/Bob</a>
+        </p>
+        <h3>What is syllabus for JEE 2024?</h3>
+        <div>
+            <button class="upvote">+upvote</button>
+            <button class="ans">answer</button>
+        </div>
+        <hr>
+        <div>
+        <p>
+            Catlyn &emsp;
+            <a class="follow" href="/catlyn">Follow/catlyn</a>
+        </p>
+        <h3 id="hello" class="myClass">Why is the sky blue?</h3>
+        </div>
+        <div >
+
+            <button id="new1" class="upvote" >+upvote</button>
+            <button class="ans">answer</button>
+        </div><br>
+        <p>
+            Dan
+            <a class="follow" href="/dan">Follow/Dan</a>
+        </p>
+        <h3 class="myClass">Suggest some good sci-fi shows</h3>
+        <div id="new2">
+            <button class="upvote">+upvote </button>
+            <button class="ans">Answer</button>
+        </div>
+        <div>
+            <input type="radio" name="pseudo" id="pseudo">
+            <label for="pseudo">Yes</label>
+            <input type="radio" name="pseudo" id="pseudo2">
+            <label for="pseudo2">No</label>
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit delectus a suscipit? Excepturi aliquid, id veniam, doloribus explicabo ex porro quam aut esse, obcaecati quos ducimus. Vitae, inventore ut.\
+            </p>
+        </div>
+    </main>
+</body>
+</html>

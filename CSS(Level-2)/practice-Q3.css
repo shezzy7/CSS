@@ -1,0 +1,35 @@
+*{
+    font-family:courier New;
+}
+h1{
+    color:#1b74e4;
+}
+/* Method #1 */
+/* main>button{
+    color:white;
+    background-color: black;
+}
+div>button{
+    background-color:aqua;
+
+} */
+/* Method #2 */
+/* .new2{
+    background-color: aqua;
+}
+#new{
+    background-color: black;
+    color:white;
+} */
+/* Method #3 */
+button[class="new2"]{
+    background-color:aqua;
+}
+/* button[id="new"]{
+    color:white;
+    background-color: black;
+} */
+input+button{
+    color:white;
+    background-color: black;
+}

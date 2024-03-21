@@ -1,0 +1,13 @@
+div{
+    color:orange;
+}
+/* button and input can't inherit properties by default so we will inherit by following method */
+input{
+    color:inherit;
+}
+button{
+    color:inherit;
+}
+h1{
+    color:#b21
+}

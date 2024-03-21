@@ -1,0 +1,6 @@
+input[tpye="text"]{
+    background-color:greenyellow;
+}
+button[class="ans"]{
+    background-color:chartreuse;
+}

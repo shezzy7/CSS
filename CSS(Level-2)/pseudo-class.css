@@ -1,0 +1,26 @@
+button:hover{
+    color:white;
+    background-color: blue;
+ } 
+input[type="radio"]:checked +label {
+    font-weight:bold;
+    color:green;
+}
+h3:hover{
+    text-decoration:orange dotted underline;
+}
+h3:active{
+    
+    color:blueviolet;
+}
+p:nth-of-type(2n){
+    color:aqua;
+}
+div:nth-of-type(3){
+    font-family:broadway;
+}
+
+
+
+
+

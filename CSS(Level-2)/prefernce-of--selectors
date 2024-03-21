@@ -1,0 +1,3 @@
+inline style>id>class>element
+if specificity of some selectors goes same than we see cascading
+id----class|attribute|pesudo class----element|pseudo element
