@@ -1,0 +1,93 @@
+div{
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+    /* on which box we want to apply animation we write these things in this box
+    
+    animation-name: animationName;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-direction: (reverse,alternative,normal);
+    animation-iteration-count: (1,2,.... or infinite); 
+    */
+    animation-name: position;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation : Name duration timing-function delay iteration-count direction */
+    /* we can write above code as */
+    animation: width 3s ease-in-out 2s infinite alternate;
+    animation: more 3s ease-in 2s 3s normal;
+    animation: percent 4s ease-in 3s infinite reverse;
+}
+/* syntax */
+/* @keyframes animationName(anyname){
+    from{
+        property : values;
+     }
+     to{
+        property : value;
+      }
+} */
+@keyframes color{
+    from{
+        background-color: aqua;
+    }
+    to{
+
+        background-color: greenyellow;
+    }
+}
+@keyframes position{
+    from{
+        position: relative;
+        left: 0px;
+    }
+    to{
+        position: relative;
+        left: 50px;
+    }
+}
+
+@keyframes width{
+    from{
+        width: 5px;
+    }
+    to{
+        width: 300px;
+    }
+}
+/* we can set more than one property in animation */
+@keyframes more{
+    from{
+        background-color: aqua;
+        font-size: 5px;
+    }
+    to{
+        background-color: brown;
+        font-size: 20px;
+        transform: skew(15deg);
+    }
+}
+/* % in animation */
+/* it is used to set that my box should be like this at 0% and like this at 20% ,like this at 50% and so on */
+@keyframes percent{
+    0%{
+        background-color: tomato;
+        border: 2px solid aqua;
+        font-size: 14px;
+    }
+    50%{
+        background-color: chartreuse;
+        border: 2px double gray;
+        font-size: 20px;
+    }
+    100%{
+        background-color: violet;
+        border: 5px dotted orange;
+        font-size: 10px;
+    }
+}

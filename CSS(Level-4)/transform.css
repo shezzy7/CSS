@@ -1,0 +1,38 @@
+div{
+    border: 2px solid yellowgreen;
+    height: 20px;
+    width: 40px;
+    margin: 2px;
+}
+#shezzy{
+    /* rotate property rotates the box at a given angle  */
+    transform: rotate(45deg);
+}
+#jam{
+    /* scale property effects the size of a box if we make it 0.5 box will become half of original size */
+    /* on 1 it will be in original size but at 1.5 it will become 0.5 greater then its original size */
+
+    transform:scale(1.5);
+    /* we can also add two properties in scale first will be horizantal values(X) */
+    /* and second will effect vertical(length) of box (Y) */
+    /* transform:scale(0.5,1) */
+    /* we can also wite it as */
+    /* transform:scaleX(0.5); */
+    /* transform:scaleY(1); */
+    
+}
+#hani{
+    /* translate property is used to shift box from placr to another */
+    /* transform: translate(500px,5px); */
+    transform: translate(500px);
+     /*first value here will move it horizantically and second will move it vertically
+    we can also move any box in just one direction mean in vertically or horizantically
+        like 
+        transform: translateX(500px);it will move it horizantically
+        transform:translateY(5px);it will move it verticaly  
+        we can also give negative values to move in ooposite direction*/
+}
+#husain{
+    transform:skew(25deg);
+    /* skew property till the box into some */
+}

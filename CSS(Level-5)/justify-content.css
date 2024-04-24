@@ -1,0 +1,157 @@
+/* justify content:- this property is used to set the alignment of items across main axis . it has three follwing types
+
+i-flex-start     ->this property sets the items towards start of main axis 
+ii-flex-end      ->this property sets the items towards end of main axix
+iii-center       ->this property sets the items in the center of main axis
+iv-space-between ->if there is any space at end of all items then property this
+                    sets that space between all the items
+v-space-around   ->this property sets space between the items                    
+                    and half of space around itmes
+vi-space-evenly  ->this propert sets space between and around the item equally*/
+#container1{
+    width: 80%;
+    height: 500px;
+    background-color:darkcyan;
+    border:2px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;/*this align elements in the cnter*/
+}
+#container1 div{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+#container2{
+    height: 350px;
+    width: 80%;
+    background-color: wheat;
+    border: 2px solid black;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction:row ;/*this will set elements of container in the row from left to right*/
+    justify-content: flex-end;
+}
+
+#container2 div{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 70px;
+    width: 70px;/*here we increase the width of inner elements so that they cover whole 
+    row,even if the collection of width of all the inner elements is greater then 
+    the width of container ,the elemnts will remain inside the container*/
+}
+#container3{
+    height: 350px;
+    width: 80%;
+    border: 2px solid black;
+    background-color: tomato;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;/*it set elements towards the ending position of elements
+    .here as the elements are aligned in row-reverse ,s they will be aligned from
+    right to left in this row. So  if we set justify content flex-end, then the elements
+    will be setted towords the ending side which is left here*/
+}
+#container3 div{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 70px;
+}
+#container4{
+    height: 350px;
+    width: 80%;
+    border: 2px solid black;
+    background-color:goldenrod;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;/*here all the elements will align them from top to bottom
+    in a single column within the container*/
+    justify-content:center;/*this will set the elements towards the center */
+}
+#container4 div{
+    width: 70px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#container5{
+    width: 80%;
+    height: 500px;
+    background-color:darkcyan;
+    border:2px solid black;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: flex-end;/*this align elements in the cnter*/
+}
+#container5 div{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+#container6{
+    width: 80%;
+    height: 500px;
+    background-color:darkcyan;
+    border:2px solid black;
+    display:flex;
+    flex-direction:column-reverse;
+     /*if we want to give some space b\w or around element then we will also use justify content properties*/
+     justify-content: space-between;/*this will give space between elements*/
+    }
+
+#container6 div{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+#container7{
+    width: 80%;
+    height: 500px;
+    background-color:darkcyan;
+    border:2px solid black;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: space-around;/*this will give space between and around the elements
+    but the space around will be half of space between the elements*/
+}
+#container7 div{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+#container8{
+    width: 80%;
+    height: 500px;
+    background-color:darkcyan;
+    border:2px solid black;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: space-evenly;/*this will give space between and around the elements
+    and the space around will be equal to space between the elements*/
+}
+#container8 div{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}

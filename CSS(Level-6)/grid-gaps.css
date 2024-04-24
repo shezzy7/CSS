@@ -1,0 +1,18 @@
+/*grid gap is used to give gap between rows or columns 
+if we want to give gap between rows then we use row-gap property and for columns we use column-gap property*/
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 20px;
+}
+.container div{
+    width: 100px;
+    height: 80px;
+    border: 1px solid aqua;
+    background-color: green;
+}

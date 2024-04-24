@@ -1,0 +1,21 @@
+/*we use repeat method to divide all available space*/
+/* syntax->   grid-template-rows:repeat(count,1fr);if we want to create 3 rows equal in width then we write count 3,1fr and it will create three rows and whole width will be divided equally b\w these three.here 1fr means 1 fraction of whole width will be given to each row .if there is one single row the it will occopie the whole and if there are three rows then equall width will be divided between these rows
+/*            grid-template-column:repeat(count,1fr);here 1 fr means 1 fraction of 100% height mean if we want to divide the whole height between 2 columns then we will write count 2 and then 1fr */
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);/*it will create 3 columns each with same width*/
+    grid-template-rows: repeat(2,1fr);/* it will create 2 rows and divide height between them equally */
+    /*we can use another method for this purpose*/
+    grid-template-columns: 1fr 1fr 1fr;/*it means three columns each with 1 fraction of whole width we can also add or reduce 1fr count according number of columns mean if 1fr create 1 column ,2fr reate 2 columns and so on*/
+    grid-template-rows: 1fr 1fr;/*we can also write the same method for rows .here we have divided the whole height between two rows we can also add or reduce their number according our choice*/
+}
+.container div{
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 1px solid black;
+}

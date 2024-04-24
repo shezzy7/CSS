@@ -1,0 +1,51 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 20px;
+    display: inline-block;
+    border : 3px solid black;
+}
+/* there are four types of  position  static,relative,absolute and fixed
+and these can be applied on four sides top,bottom,left and right*/
+
+/* lets try static first */
+/* when position is static then no changes are made to the original positon */
+#static{
+    background-color: orange;
+    position : static;
+    top : 100px;
+    left : 100px;
+}
+
+/* lets try relative type */
+/* relative changes position according to the center of the element */
+#relative{
+    background-color: orange;
+    position: relative;
+    top : 80px;
+    left : 100px;
+}
+
+/* now try absolute type */
+/* the element is removed from the normal document flow and no space is created
+for the element in the page layout */
+/* it is positioned relative to its closest positioned ancestors,if any;otherwise 
+it is positioned relative to the initial containing block*/
+#absolute{
+    background-color: orange;
+    position: absolute;
+    top: 120px;
+    left : 120px
+}
+
+/* now trying the fixed property */
+/* the element is removed from the normal document flow and no space is created for
+the element in the page layout */
+/* it is positioned relative to the initial contianing block established by the viewport*/
+#fixed{
+    background-color: orange;
+    position: fixed;
+    top: 100px;
+    left : 100px
+}

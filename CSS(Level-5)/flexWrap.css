@@ -1,0 +1,19 @@
+/* flexWrap is a property which tells whether the elements of container will be fitted in same line even their height or width is grater then container size or the elements whose size is greater then the container size || in the same line 2 or any number of elements can be  can be fitted if their size is in limit of container's size else elements will be shifted to new line where the can be placed easilt according to their size.it has three types
+flex-wrap : nowrap; //byDefault
+flex-wrap : wrap;   //just wrap it
+flex-wrap : wrap-reverse;   //wrap then reverse it along cross axis
+*/
+#container{
+    height: 300px;
+    width: 500px;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+div{
+    height: 50px;
+    width: 100px;
+    color:white;
+    text-align: center;
+}

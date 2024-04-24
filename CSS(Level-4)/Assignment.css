@@ -1,0 +1,46 @@
+/* Q1. Add a transition of 2s for width changes on box1.
+it should have 'ease-in' speed curve and 0.5s delay */
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 2s;/*it means go to hover codition as setted in hover in this time*/ 
+    transition-delay: 0.5s;/*it means come back from hover condition in this time*/
+}
+#box1:hover{
+    width:600px;
+}
+/* Q2. using transform move box2 200px to the right and 200px down
+also rotate it 90deg.*/
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(200px,200px) rotate(90deg);
+}
+/* Q3.using transform skew the box3 20deg along x-axis */
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: skewX(20deg);
+}
+/* Q4. Set a 2px horizantal & 2px vertical,green shadow for box4 ,with a 5px blur 
+radius. With a 5px blur radius */
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    
+    box-shadow:2px 2px 5px green ;
+}
+/* Q5. Set a background image of "myPic" .Also set transparency of this div to 
+50%. */
+#myPic{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    background-image: url('AI\ image1.jpg');
+    opacity: 0.5;
+}

@@ -1,0 +1,29 @@
+/*
+grid-template is used to define number of lines and width of tracks 
+ there are two types of grid templates 
+1-  grid-template-rows-> its used to set no and height of tracks(rows) horizantly 
+2-  grid-template-columns->it is used to set no and width of tracks(columns) in vertically*/
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: grid;
+    /*if we wan to create 3 rows in our container and each row with track width of 80px then*/
+     grid-template-rows:80px 80px 80px;/*here we have created 3 tracks(rows) with 80px height. here by default will be one column so all elements will be in one column */
+    /*if we want to create three  column */
+    /* grid-template-columns: 120px 120px 120px ; */
+    /*we can also create column by another method */
+    grid-template-columns: auto auto auto auto;
+    /*each auto will create one column and if we write 2 times auto then 2 column will be created and of same width*/ 
+    
+}
+.container div{
+    /* width: 100px;
+    height: 50px; */
+    /*if we remove width and height of divs then these will automatically fill the space*/
+    text-align: center;
+    border: 1px solid aqua;
+    color: white;
+    background-color: green;
+}

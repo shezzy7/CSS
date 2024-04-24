@@ -1,0 +1,48 @@
+div{
+    width: 250px;
+    height: 100px;
+    background-color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* media queries are used to make our website responsive.These are used to set our content properties to be limited to specific values on specific browsers */
+
+/* let suppose we want that when our screen size width reaches  400px then the  font-color becomes green. then we can use media quries for this purpose 
+this changes the properties by viewport*/
+@media (width:400px){
+    div{
+        color: green;
+    }
+}
+/*          here we are using media queries by method->  width(of viewport) */
+/*we can also max or min width*/
+@media (min-width:500px){/*our font-color will be orange if our our screen size is greater then 500px*/
+    div{
+        color: orange;
+    }
+}
+@media (max-width:600px){/*these properties  will be applied if our screen size is smaller then 600px else these will not be applied*/
+    div{
+        color: aqua;
+    }
+
+}
+/*we can also combine max and width*/
+@media (max-width:600px) AND (min-width:410px){
+    div{
+        background-color: orange ;
+        color: violet;
+        
+    }
+    h1{
+        background-color: blue;
+    }
+}
+/* we can also set it on orientation (by viewport) 
+orientation is of two types portrait and landscap. Landscap means rotated screen and portrait means original vertical screen*/
+@media (orientation:landscape){
+    h2{
+        color: yellow;
+    }
+}

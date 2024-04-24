@@ -1,0 +1,30 @@
+/* align items :- this property is used to set the  alignment of items in cross axis 
+types:-
+
+i-flex-end:- this sets the elements towards the end of cross axis*/
+.container{
+    width: 80%;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;/*this set all the items towards end of cross axis and here cross axis is from top to bottom so it will align all the items towards the bottom */ 
+   /* align-items: center;/*it will align the items in the center of cross axis */
+    /*align-items: flex-start;/*it will align the items towards the start of cross axis */
+    /*align-items: baseline;/*this property makes baseline of divs at he same line*/ 
+}
+.container div{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    color: white;
+
+}
+.container div:nth-of-type(3){
+    background-color: aqua;
+    text-align: center;
+    font-size: 1.5em;
+}
+.container div:nth-of-type(2n){
+    background-color: brown;
+}

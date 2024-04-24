@@ -1,0 +1,24 @@
+/*A special property inline-grid.if it is given to a container then all the items in items will becomes grid elements,mean it will work as grid but  if any element is written after that grid container and we make its display inline or element is already inline element then it will be in same line of grid container. Let's try this*/
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: inline-grid;/*i have make inline-grid . A span is ritten after the container .this span will in the same line now.if we use only grid span will be in next line because grid is inline-block but if we use this property of inline-grid then any element that is inline or maded inline will be in same line*/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    row-gap:5px;
+    column-gap: 5px;
+
+
+}
+.container div{
+    width: 80px;
+    height: 60px;
+    border: 1px solid aqua;
+    background-color: green;
+}
+#after{
+    display: inline-block;/*as we have made div inline-block so it will alsoin same line of container.this is due to inline-grid property.Same property can be applied on flexbox by using display:inline-flex;*/
+}

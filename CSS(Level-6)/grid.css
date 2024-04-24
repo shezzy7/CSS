@@ -1,0 +1,15 @@
+/*grid is used when we need two dimensional layout like rows and columns .But if we need one dimensionl layout like only row or only column then we use flexbox*/
+.container{
+    width: 600px;
+    height: 300px;
+    background-color:black;
+    display: grid;
+    /* If we give display grid property to container then it is applied to direct child of conatainer 
+    when we apply grid property to container then its items are aligned in column order and equall space is given between items */
+}
+.item{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: yellowgreen;
+}

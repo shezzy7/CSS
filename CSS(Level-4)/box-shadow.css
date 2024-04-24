@@ -1,0 +1,6 @@
+/* box shadow adds shadow effects in an element's frame.
+syntax->  box-shadow:x-axisValue,y-axisValue,blurValue,color; */
+#shezzy{
+    box-shadow:5px 5px 8px black;
+    margin-bottom:3px;
+}

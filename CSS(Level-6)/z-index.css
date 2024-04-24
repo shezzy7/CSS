@@ -1,0 +1,28 @@
+/* Z-index:- it decides the stack level of elements.For exmple if two elemnts are there on the screen and we want to overlap them and give them some position properties .and now they have been overlapped but which itom sholud be on top it is decided y by z-index 
+Remember that z-index cannot be applied on elements with position statci or default .So first we will set the position of our element relative or some other then it will work
+Values:-   value of z-index by default is auto which means 0.it value can be 1/2/3.... and it can be -ve like -1/-2/-3....... and element with value of z-index greater  will be upper and will come up on increasing value but if value is lower  then it will be go down as much as its value
+ */
+.box{
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    background-color: maroon;
+    margin: 10px;
+}
+.one{
+    background-color: orange;
+    position: relative;
+    z-index: 2;/*here one will be overlapped over 2*/
+}
+.two{
+    background-color: springgreen;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;/*two will be overlapped over 3 bcz three is with z-index:0*/
+}
+.three{
+    position: relative;
+    bottom: 75px;
+    position: relative;
+    
+}

@@ -1,0 +1,14 @@
+div{
+    height:50px;
+    width:50px;
+    margin: 2px;
+    text-align: center;
+    /* alpha here tells the intensity of color choosen its value lie b\w 0-1 */
+    /* it effets the background color only */
+    background-color: rgba(0, 255, 0, 0.2);
+
+}
+
+#jam{
+    background-color: rgba(0, 255, 0, 0.6);
+}

@@ -1,0 +1,23 @@
+/* with the help of ths proprty we can add a image in the bakground of an element or on whole screen */
+body{
+    background-image: url('wallpaper1.jpg');
+    background-size: cover;
+    /* cover:  it occopies the the whole box */
+
+}
+#shezzy{
+    color:orange;
+    padding: 100px;
+    width: 120px;
+    background-image: url('me1.jpg');
+    background-size: contain;
+    /* contain: if the size of image is smaller then the box sizd then it will complete the box boy repeating the image */
+
+}
+#jam{
+    color:green;
+    padding: 100px;
+    background-image: url('me2.jpg');
+    background-size: auto;
+    /* auto: it will completely surround the element's background by strecthing the image */
+}

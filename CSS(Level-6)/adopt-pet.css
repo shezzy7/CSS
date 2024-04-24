@@ -1,0 +1,30 @@
+h2{
+    color: #d56f3e;
+}
+span{
+    color: #9d6f24;
+}
+.pet div{
+    border: 2px solid black;
+    width: 350px;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 10px;
+}
+img{
+    border-radius: 25px;
+    width: 100%;
+}
+
+h3{
+    color: #3c787e;
+}
+.pet{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:470px) AND (min-width:0px){
+    .pet{
+        flex-wrap: wrap;
+    }
+}
