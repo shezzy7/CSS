@@ -1,0 +1,26 @@
+div{
+   
+    padding:15px;
+}
+#myId{
+    padding-top:40px;
+}
+button{
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:20px;
+    background-color: orange;
+}
+
+/* different methods */
+  #myId{ 
+    /* #1- for all */
+    padding:30px;
+    /*#2- top & bottom | left & right */
+    padding: 5px 10px;
+    /* #3- top | left & right | bottom */
+    padding: 10px 20px 30px;
+    /* #4 Clockwise(top|right|bottom|left */
+    padding:5px 10px 15px 20px;
+
+}

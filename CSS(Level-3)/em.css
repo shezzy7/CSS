@@ -1,0 +1,13 @@
+#outer{
+    font-size:50px;
+    border:2px solid pink;
+    padding: 1em;
+    background-color: orange;
+}
+#inner{
+    font-size:2em;/* 2 time of parent elemnt*/
+    background-color:brown;
+    border:4px dotted green;
+    padding: 1em;
+
+}

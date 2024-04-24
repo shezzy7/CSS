@@ -1,0 +1,13 @@
+div{
+    border-color: black;
+    border-width: 5px;
+    border-style:solid;
+}
+h1{
+    bordr-width:2px;
+    border-style: dotted;
+    border-color:purple;
+}
+button{
+    border:5px dotted orange;
+}

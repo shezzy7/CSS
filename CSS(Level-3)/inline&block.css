@@ -1,0 +1,15 @@
+h2{
+    display: inline;/*this will make any elements inline whether these are inline 
+    are not */
+}
+span{
+    
+    display: block;/*this will make all the elements to block whether these are block elements or not*/
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;/*this will make the element inline and also block
+}

@@ -1,0 +1,18 @@
+button{
+    border-left-color:brown;
+    border-right-color:aqua;
+    border-bottom-color:blue;
+    border-top-color:black;
+}
+h1{
+    border-top-style:double;
+    border-left-style:solid;
+    border-right-style:outset;
+    border-bottom-style:dashed;
+}
+div{
+    border-top-width:5px;
+    border-bottom-width:10px;
+    border-left-width:15px;
+    border-right-width:20px
+}

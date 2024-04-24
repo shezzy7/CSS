@@ -1,0 +1,13 @@
+div{
+    border-radius: 25px;
+}
+/* button{
+    border-radius: 10px;
+} */
+/* beautiful design */
+button{
+    border-radius:10px 100px / 120px
+}
+div{
+    border-top-right-radius:10px;
+}

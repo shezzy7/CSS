@@ -1,0 +1,23 @@
+#id1{
+    height:200px;
+    width:70px;
+    border:2px solid black;
+    
+}
+.myClass{
+    height:50px;
+    width:50px;
+    margin:10px;
+    border-radius:50%;
+    background-color:azure;
+
+}
+#id2{
+    background-color:red;
+}
+#id3{
+    background-color: yellow;
+}
+#id4{
+    background-color: green;
+}
